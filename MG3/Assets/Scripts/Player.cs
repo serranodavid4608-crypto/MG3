@@ -85,7 +85,9 @@ public class Player : MonoBehaviour
     public void IncreasePoints()
     {
         // Inside this method, increase the value of _points by one,
+        _points++;
         // and update the _pointsText text with text displaying the new value of _points.
+        _pointsText.text = _points.ToString();
         
     }
     // STEP 10 -----------------------------------------------------------------
